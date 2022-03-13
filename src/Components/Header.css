@@ -1,0 +1,50 @@
+.header {
+  overflow: hidden;
+  background-color: #aeaeae;
+  padding: 20px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: black;
+  color: #aeaeae;
+}
+
+.header-right {
+  float: right;
+  margin-right: 20px;
+}
+
+.header-right a {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}

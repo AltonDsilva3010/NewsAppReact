@@ -1,0 +1,8 @@
+.news-container {
+  margin: 20px 0px 0px 0px;
+  background-color: #aeaeae;
+  border-radius: 5px;
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
